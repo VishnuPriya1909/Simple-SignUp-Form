@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(brown,orange,yellow);
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.header{
+    background-color:white;
+    align-items: center;
+    height: 550px;
+    width: 400px;
+    padding: 40px;
+    position: relative;
+    top: 12px;
+    box-shadow: 10px 10px 5px pink;
+    background-image: url("https://i.pinimg.com/originals/e7/fd/c2/e7fdc2931e470f10e011c4d99a3b43c4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+input[type=text]{
+    height: 40px;
+    width: 30ch;
+}
+input[type=password]{
+    height: 40px;
+    width: 30ch;
+}
+button{
+    background-color: rgb(38, 182, 226);
+    height: 1cm;
+    width: 150px;
+    color: green;
+    font-size:20px;
+    font-weight:30px;
+}
+#shadow{
+    box-shadow: 2px 2px 2px blue;
+}
+#sign{
+    position: relative;
+    top:-40px;
+}
+h1{
+    position: relative;
+    top:-30px;
+}
+p{
+    font-size: x-large;
+    color: rgb(2, 255, 2);
+
+}
